@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*============batas style=============*/
+
+
+
+body{
+	font-family: sans-serif;
+	font-size: 15px;
+	background-color: #DADADA;
+}
+
+.top-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: #279641;
+	border-bottom: 3px solid skyblue;
+	text-align: center;
+	line-height: 40PX;
+
+}
+
+
+.top-bar a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.top-bar a:hover{
+	background-color: salmon;
+
+}
+.contener{
+	width: 800px;
+	background-color: white;
+	margin: auto;
+	box-sizing: border-box;
+	margin-top: 47px;
+
+}
+
+.poto{
+	width: 300px;
+	height: 300px;
+	background-color: #0A57DD;
+	float: left;
+	box-sizing: border-box;
+	padding: 70px;
+	border-bottom: 3px solid salmon;
+}
+
+.nama{
+	width: 500px;
+	height: 300px;
+	background-color: #0A57DD;
+	float: left;
+	box-sizing: border-box;
+	padding: 20px;
+	padding-top: 40px;
+	border-bottom: 3px solid salmon;
+	color: #1F1F1F;
+}
+
+.nama p{
+	color: #DADADA;
+}
+
+
+.clear{
+	clear: left;
+
+}
+
+.poto img{
+	width: 170px;
+	border-radius: 50%;
+}
+
+.nama h1{
+	font-size: 30px;
+	padding-bottom: 30px;
+	border-bottom: 2px solid red;
+	font-weight: bold;
+}
+
+.nama p{
+	margin-top: 20px;
+
+}
+
+.contact{
+	width: 300px;
+	height: 500px;
+	box-sizing: border-box;
+	background-color: #F4F1F3;
+	float: left;
+	padding: 20PX;
+
+}
+
+
+.education{
+	width: 500px;
+	height: 500px;
+	box-sizing: border-box;
+	float: left;
+	background-color: white;
+	padding: 20px;
+}
+
+.contact h5{
+	margin-top: 20PX;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+
+}
+
+.contact img{
+	width: 16px;
+
+}
+
+.contact li{
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: bold;
+
+}
+
+
+
+#denah{
+	height: 16px;
+}
+
+
+.contact h4{
+	margin-top: 60PX;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+
+}
+
+.contact ul li img{
+	width: 13px;
+}
+
+.education h5{
+	margin-top: 20PX;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+	display: inline-block;
+	width: 280px;
+}
+
+.education img{
+	width: 16px;
+}
+
+.education li{
+	margin-top: 20px;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.education ul li img{
+	width: 13px;
+	}
+
+.education h3{
+	margin-top: 26PX;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+	display: inline-block;
+	width: 280px;
+
+}
+
+.education p{
+	font-size: 12px;
+
+}
+
+.copy{
+	width: 800px;
+	padding: 15px;
+	text-align: center;
+	background-color: #3D3232;
+	color: white;
+	box-sizing: border-box;
+}
